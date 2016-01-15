@@ -1,0 +1,13 @@
+#main {
+    border: 16px solid black;
+}
+
+ul li {
+	padding: 32px;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        margin: 16px 8px;
+    }
+}

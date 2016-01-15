@@ -1,0 +1,31 @@
+{
+  "name": "postcss-remtopx",
+  "version": "1.0.0",
+  "description": "PostCSS plugin for converting rem to px.",
+  "author": "Roland Warmerdam (https://roland.codes)",
+  "keywords": [
+    "postcss-plugin"
+  ],
+  "repository": "Rowno/postcss-remtopx",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "eslint lib test && ava"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.0.1",
+    "postcss": "^5.0.14"
+  },
+  "devDependencies": {
+    "ava": "^0.9.2",
+    "eslint": "^1.10.3",
+    "eslint-config-rowno": "^2.1.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "private": true
+}

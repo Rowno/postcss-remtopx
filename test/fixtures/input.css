@@ -1,0 +1,13 @@
+#main {
+    border: 1rem solid black;
+}
+
+ul li {
+	padding: 2rem;
+}
+
+@media screen and (min-width: 50rem) {
+    body {
+        margin: 1rem 0.5rem;
+    }
+}
