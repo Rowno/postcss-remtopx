@@ -13,7 +13,7 @@
     "test": "eslint lib test && ava"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   },
   "dependencies": {
     "lodash.merge": "^4.0.1",
