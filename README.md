@@ -6,6 +6,31 @@
 PostCSS plugin for converting rem to px.
 
 
+Getting Started
+---------------
+Install remtopx: `npm install --save-dev postcss-remtopx`
+
+Include remtopx and execute:
+```js
+var postcss = require('postcss');
+var remtopx = require('postcss-remtopx');
+
+var output = postcss([remtopx]).process('body { padding: 2rem; }');
+// body { padding: 32px; }
+```
+
+Options
+-----
+
+```js
+var output = postcss([remtopx({ rootFontSize: 14 })]).process('body { padding: 2rem; }');
+// body { padding: 28px; }
+```
+
+### `rootFontSize`
+Changes the root font size used to calculate the rem pixel values.
+
+
 License
 -------
 postcss-remtopx is released under the ISC license.
