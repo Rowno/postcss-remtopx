@@ -33,7 +33,7 @@ test('basic', (t) => {
     t.plan(1);
 
     return Promise.all([
-        postcss([remtopx()]).process(input),
+        postcss([remtopx]).process(input),
         readFile('fixtures/output1.css'),
     ]).then(([output, fixture]) => t.is(output.css, fixture));
 });
