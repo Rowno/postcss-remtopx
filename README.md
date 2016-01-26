@@ -28,6 +28,9 @@ var output = postcss([remtopx({ rootFontSize: 14 })]).process('body { padding: 2
 ```
 
 ### `rootFontSize`
+
+Type: `float` Default: `16`
+
 Changes the root font size used to calculate the rem pixel values.
 
 
