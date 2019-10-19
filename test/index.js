@@ -24,8 +24,9 @@ function readFile(file) {
 }
 
 
-test.before(() => {
-    return readFile('fixtures/input.css').then((data) => input = data);
+test.before(async () => {
+    const data = await readFile('fixtures/input.css')
+    input = data
 });
 
 
