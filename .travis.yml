@@ -1,5 +1,9 @@
 language: node_js
 node_js:
-    - "5"
-    - "4.2"
-    - "0.12"
+  - "8"
+  - "10"
+  - "12"
+cache:
+  yarn: true
+  directories:
+    - node_modules
